@@ -1,3 +1,3 @@
 module.exports = {
-  extends: ["eslint-config-sensu", "./rules/graphql"].map(require.resolve),
+  extends: ["@sensuapp/eslint-config", "./rules/graphql"].map(require.resolve),
 };
